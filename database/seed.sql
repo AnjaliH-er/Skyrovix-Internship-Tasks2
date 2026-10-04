@@ -1,0 +1,31 @@
+-- ============================================================================
+-- Student Management Portal - Sample Seed Data
+-- 24 Realistic Student Records for Comprehensive Testing & Demonstration
+-- ============================================================================
+
+INSERT INTO students (student_id, full_name, email, phone, gender, date_of_birth, course, department, year, address, status, created_at)
+VALUES
+('STU-2024-001', 'Aarav Sharma', 'aarav.sharma@example.edu', '+1 (555) 234-5678', 'Male', '2002-05-14', 'B.Tech Computer Science', 'Computer Science', '3rd Year', '742 Evergreen Terrace, Springfield, IL', 'Active', '2024-01-15 09:30:00'),
+('STU-2024-002', 'Sophia Martinez', 'sophia.martinez@example.edu', '+1 (555) 345-6789', 'Female', '2003-08-22', 'B.Tech Information Technology', 'Information Technology', '2nd Year', '124 Conch Street, Pacific Grove, CA', 'Active', '2024-01-16 10:15:00'),
+('STU-2024-003', 'Rohan Patel', 'rohan.patel@example.edu', '+1 (555) 456-7890', 'Male', '2001-11-03', 'B.Tech Mechanical Engineering', 'Mechanical Engineering', '4th Year', '456 Elm Street, Apt 3B, Dallas, TX', 'Active', '2024-01-18 11:00:00'),
+('STU-2024-004', 'Emily Chen', 'emily.chen@example.edu', '+1 (555) 567-8901', 'Female', '2004-02-18', 'B.Tech Electrical Engineering', 'Electrical Engineering', '1st Year', '890 Maple Drive, Seattle, WA', 'Active', '2024-01-20 14:20:00'),
+('STU-2024-005', 'Liam Johnson', 'liam.johnson@example.edu', '+1 (555) 678-9012', 'Male', '2002-09-30', 'B.Tech Civil Engineering', 'Civil Engineering', '3rd Year', '321 Oak Avenue, Denver, CO', 'Inactive', '2024-01-22 16:45:00'),
+('STU-2024-006', 'Priya Nair', 'priya.nair@example.edu', '+1 (555) 789-0123', 'Female', '2003-04-12', 'B.Tech Computer Science', 'Computer Science', '2nd Year', '567 Pine Lane, Austin, TX', 'Active', '2024-02-01 08:30:00'),
+('STU-2024-007', 'Marcus Vance', 'marcus.vance@example.edu', '+1 (555) 890-1234', 'Male', '2001-12-05', 'Bachelor of Business Admin', 'Business Administration', '4th Year', '234 Birch Boulevard, Chicago, IL', 'Active', '2024-02-05 13:10:00'),
+('STU-2024-008', 'Zara Al-Mansoor', 'zara.almansoor@example.edu', '+1 (555) 901-2345', 'Female', '2004-07-19', 'B.Tech Data Science & AI', 'Computer Science', '1st Year', '678 Cedar Road, Boston, MA', 'Active', '2024-02-10 11:25:00'),
+('STU-2024-009', 'Noah Wilson', 'noah.wilson@example.edu', '+1 (555) 012-3456', 'Male', '2002-03-27', 'B.Tech Electrical Engineering', 'Electrical Engineering', '3rd Year', '890 Willow Court, Atlanta, GA', 'Inactive', '2024-02-15 15:50:00'),
+('STU-2024-010', 'Ananya Gupta', 'ananya.gupta@example.edu', '+1 (555) 123-4567', 'Female', '2003-10-14', 'B.Tech Information Technology', 'Information Technology', '2nd Year', '432 Spruce Way, San Jose, CA', 'Active', '2024-02-20 09:40:00'),
+('STU-2024-011', 'David Kim', 'david.kim@example.edu', '+1 (555) 234-9876', 'Male', '2004-01-09', 'B.Tech Civil Engineering', 'Civil Engineering', '1st Year', '789 Walnut Street, Phoenix, AZ', 'Active', '2024-03-01 10:05:00'),
+('STU-2024-012', 'Chloe Taylor', 'chloe.taylor@example.edu', '+1 (555) 345-8765', 'Female', '2001-06-25', 'Bachelor of Business Admin', 'Business Administration', '4th Year', '101 Magnolia Street, Miami, FL', 'Active', '2024-03-05 14:15:00'),
+('STU-2024-013', 'Ishaan Deshmukh', 'ishaan.deshmukh@example.edu', '+1 (555) 456-1122', 'Male', '2003-03-11', 'B.Tech Software Engineering', 'Computer Science', '2nd Year', '55 Tech Park Way, Austin, TX', 'Active', '2024-03-10 09:00:00'),
+('STU-2024-014', 'Maya Lin', 'maya.lin@example.edu', '+1 (555) 567-2233', 'Female', '2002-12-04', 'B.Tech Cloud Computing', 'Information Technology', '3rd Year', '88 Innovation Drive, San Francisco, CA', 'Active', '2024-03-12 11:30:00'),
+('STU-2024-015', 'Carlos Gutierrez', 'carlos.gutierrez@example.edu', '+1 (555) 678-3344', 'Male', '2001-04-18', 'B.Tech Mechatronics', 'Mechanical Engineering', '4th Year', '210 Industrial Parkway, Detroit, MI', 'Active', '2024-03-15 13:45:00'),
+('STU-2024-016', 'Fatima Zahra', 'fatima.zahra@example.edu', '+1 (555) 789-4455', 'Female', '2004-09-08', 'B.Tech Cyber Security', 'Information Technology', '1st Year', '330 Cyber Boulevard, Reston, VA', 'Active', '2024-03-18 10:20:00'),
+('STU-2024-017', 'Alexander Schmidt', 'alexander.schmidt@example.edu', '+1 (555) 890-5566', 'Male', '2003-07-29', 'B.Tech Electronics & Comm.', 'Electrical Engineering', '2nd Year', '140 Silicon Valley Way, San Jose, CA', 'Active', '2024-03-20 15:10:00'),
+('STU-2024-018', 'Olivia Bennett', 'olivia.bennett@example.edu', '+1 (555) 901-6677', 'Female', '2002-01-17', 'B.Tech Structural Engineering', 'Civil Engineering', '3rd Year', '95 Metro Tower Lane, New York, NY', 'Active', '2024-03-22 08:45:00'),
+('STU-2024-019', 'Rajat Sen', 'rajat.sen@example.edu', '+1 (555) 012-7788', 'Male', '2001-08-30', 'BBA Finance & Analytics', 'Business Administration', '4th Year', '70 Wall Street Plaza, Jersey City, NJ', 'Inactive', '2024-03-25 14:00:00'),
+('STU-2024-020', 'Samantha Reed', 'samantha.reed@example.edu', '+1 (555) 123-8899', 'Female', '2004-05-23', 'B.Tech Data Science & AI', 'Computer Science', '1st Year', '15 University Heights, Cambridge, MA', 'Active', '2024-03-28 16:30:00'),
+('STU-2024-021', 'Daniel O Connor', 'daniel.oconnor@example.edu', '+1 (555) 234-9900', 'Male', '2002-11-12', 'B.Tech Power Systems', 'Electrical Engineering', '3rd Year', '480 Energy Avenue, Houston, TX', 'Active', '2024-04-01 10:15:00'),
+('STU-2024-022', 'Kenji Takahashi', 'kenji.takahashi@example.edu', '+1 (555) 345-0011', 'Male', '2003-06-07', 'B.Tech Automotive Design', 'Mechanical Engineering', '2nd Year', '620 Motor Speedway Rd, Indianapolis, IN', 'Active', '2024-04-05 11:50:00'),
+('STU-2024-023', 'Aaliyah Khan', 'aaliyah.khan@example.edu', '+1 (555) 456-1133', 'Female', '2004-03-19', 'B.Tech Environmental Eng.', 'Civil Engineering', '1st Year', '50 Green Park Terrace, Portland, OR', 'Active', '2024-04-08 09:25:00'),
+('STU-2024-024', 'Lucas Silva', 'lucas.silva@example.edu', '+1 (555) 567-2244', 'Male', '2001-10-02', 'BBA Marketing Management', 'Business Administration', '4th Year', '300 Commerce Way, Charlotte, NC', 'Active', '2024-04-12 13:10:00');
